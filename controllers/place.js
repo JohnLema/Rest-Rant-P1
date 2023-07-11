@@ -6,13 +6,13 @@ app.get('/', (req, res) => {
         city: 'Queens',
         state: 'NY',
         cuisines: 'Pizza, Pasta',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/Pizza.jpg'
       }, {
         name: 'Mexican',
         city: 'Austin',
         state: 'TX',
         cuisines: 'Taco, Tamales',
-        pic: 'http://placekitten.com/250/250'
+        pic: '/images/Tamales.jpg'
       }]
       
     res.render('places/index', { places })
